@@ -35,3 +35,18 @@ docker build -t placement-mlops .
 
 ### Docker Run
 docker run -p 8000:8000 placement-mlops
+
+
+
+## Run Locally
+
+```bash
+git clone https://github.com/buddhisth04/placement-prediction-mlops.git
+
+cd placement-prediction-mlops
+
+docker build -t placement-mlops .
+
+docker run -p 8000:8000 placement-mlops
+Open:
+http://localhost:8000/docs
